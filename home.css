@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+input{
+    outline: none;
+    border: none;
+}
+select{
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+button{
+    border: 0;
+} 
+body{
+    background: #8c8c8c;
+    width: 1200px;
+    font-family: Noto Sans;
+    cursor: pointer;
+}
+main{
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 0.5pc;
+    border-top-right-radius: 0.5pc;
+    margin: 55px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.logo{
+    place-items: center;
+    padding-bottom: 5px;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.logo span{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    outline: none;
+    margin-left: 20px;
+    color: black;
+    transition: .3s ease-in-out;
+}
+a:hover{
+    color: rgb(46 125 132);
+    transform: scale(1.05);
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user img{
+    margin-right: 5px;
+}
+.user span a{
+    color: black;
+    cursor: pointer;
+}
+.add-listing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(46 125 132);
+    border-radius: 5pc;
+    padding: 3px 13px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.home-content{
+    width: 500px;
+    margin: 70px;
+}
+.home-content p{
+    color: #474747;
+    font-weight: 600;
+}
+.home-content span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.ratings{
+    width: 85.40%;
+    background: white;
+    padding: 40px;
+    z-index: 1;
+    top: 539px;
+    position: absolute;
+    border-bottom-left-radius: 0.5pc;
+    border-bottom-right-radius: 0.5pc;
+}
+
+.ratings select{
+    width: 2%;
+}

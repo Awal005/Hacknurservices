@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+input{
+    outline: none;
+    border: none;
+}
+button{
+    border: none;
+}
+select{
+    outline: none;
+    border: none;
+}
+body{
+    background: #8c8c8c;
+    width: 1200px;
+    font-family: Noto Sans;
+    cursor: pointer;
+}
+main{
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 0.5pc;
+    border-top-right-radius: 0.5pc;
+    margin: 55px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.logo{
+    place-items: center;
+    padding-bottom: 5px;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.logo span{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    outline: none;
+    margin-left: 20px;
+    color: black;
+    transition: .3s ease-in-out;
+}
+a:hover{
+    color: rgb(46, 125, 132);
+    transform: scale(1.05);
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user img{
+    margin-right: 5px;
+}
+.user span a{
+    color: black;
+    cursor: pointer;
+}
+.add-listing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(46 125 132);
+    border-radius: 5pc;
+    padding: 3px 13px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.service-content{
+    width: 500px;
+    margin: 70px;
+}
+.service-content p{
+    color: #474747;
+    font-weight: 600;
+}
+.service-content span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.service-content div{
+    width: 100%;
+    height: 110px;
+    margin-top: 30px;
+    padding: 10px;
+    background: rgba(245, 245, 245, 0.911);
+    color: black;
+    border-radius: .7pc;
+    cursor: pointer;
+}
+nav{
+    margin: 10px;
+}
+nav small{
+    /* margin-top: 10px; */
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #474747;
+}
+.appointment{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+.appointment input{
+    width: 15%;
+    margin-right: 50px;
+    background: transparent;
+    color: #474747;
+    cursor: pointer;
+}
+.appointment select{
+    margin-right: 50px; 
+    background: transparent;
+    color: #474747;
+    cursor: pointer;
+}
+ .appointment .book button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 365px;
+    left: 545px;
+    cursor: pointer;
+    width: 7%;
+    padding: 5px;
+    font-weight: 600;
+    font-size: .75rem;
+    color: gray;
+    background: black;
+    border-radius: .2pc;
+}
+.appointment .book button:hover{
+    /* background: white; */
+    transition: .2s ease-in-out;
+    transform: scale(.2);
+    transform: translateX(2px);
+    color: white;
+    box-shadow: 0 0 50rem white;
+}
+.book button img:hover{
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    transform: scale(.2);
+    transform: translateX(2px);
+} 
+
+.ratings{
+    width: 87.40%;
+    height: 5.5%;
+    background: white;
+    padding: 25px;
+    /* margin: 10px; */
+    top: 539px;
+    position: absolute;
+    border-bottom-left-radius: 0.5pc;
+    border-bottom-right-radius: 0.5pc;
+    /* font-size: small; */
+}
+.ratings-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 5px 15px 5px;
+    font-size: .9rem;
+    font-weight: 600;
+    margin-top: 0;
+    color: gray; 
+}
+.ratings-content ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ratings-content li{
+    list-style: none;
+    font-size: x-small;
+    font-weight: 600;
+    color: #474747;
+}
+.ratings-content li a{
+    text-decoration: none;
+    color: gray;
+}
+.ratings-content .media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ratings-content .media a{
+    margin-right: 15px;
+}
+.ratings-content2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+}
